@@ -8,8 +8,10 @@
 
 		foundCountries.forEach((country) => {
 			svg.querySelectorAll('path').forEach((node) => {
-				if (node.id.toUpperCase() === country.code.toUpperCase()) {
-					// node.style.stroke = 'lime';
+				if (
+					node.id.toUpperCase() === country.code.toUpperCase() ||
+					node.id.toUpperCase() === (country.code + '-w').toUpperCase()
+				) {
 					node.style.fill = '#134e4a';
 				}
 			});

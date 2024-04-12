@@ -9,7 +9,7 @@
 	});
 </script>
 
-<table class="table">
+<table class="table mt-2">
 	<tbody>
 		{#each continentCountries as country, index}
 			<tr>

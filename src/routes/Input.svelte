@@ -9,9 +9,8 @@
 			(country) => country.name.toUpperCase() === countryName.toUpperCase()
 		);
 
-		if (country) {
+		if (country && !country.found) {
 			country.found = true;
-			console.log('Country Found:', country);
 			Countries.set([...$Countries]);
 			input.value = '';
 		}
