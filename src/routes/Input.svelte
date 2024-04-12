@@ -18,7 +18,7 @@
 	}
 </script>
 
-<div class="flex flex-1 items-center mr-2">
+<div class="mr-2 flex flex-1 items-center">
 	<label class="form-control w-full">
 		<input
 			type="text"

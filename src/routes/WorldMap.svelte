@@ -18,8 +18,7 @@
 </script>
 
 <div bind:this={svg} class="mt-10">
-	<svg
-		viewBox="0 0 810 450"
+	<svg viewBox="0 0 810 450"
 		><style>
 			.border {
 				@apply stroke-base-100;

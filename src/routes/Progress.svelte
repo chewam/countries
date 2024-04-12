@@ -16,7 +16,7 @@
 		{ name: 'Europe' },
 		{ name: 'Africa' },
 		{ name: 'Asia' },
-		{ name: 'Oceania' },
+		{ name: 'Oceania' }
 	];
 
 	const Continents = writable(continents);
@@ -53,7 +53,7 @@
 			>
 				{continent.progess}%
 			</div>
-			<ContinentCountries bind:continent={continent.name}/>
+			<ContinentCountries bind:continent={continent.name} />
 		</div>
 	{/each}
 </div>
