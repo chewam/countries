@@ -25,14 +25,10 @@
 				@apply stroke-base-100;
 			}
 			.country {
-				@apply fill-neutral-600
-				/* @apply fill-teal-900 */
+				@apply fill-neutral-600;
 			}
 			.light-water {
 				@apply fill-base-300;
-			}
-			.disputed {
-				/* fill: #888; */
 			}
 		</style><path fill="transparent" d="M.1 0H810v449.9H.1z" id="ocean"></path><path
 			class="country af border"
