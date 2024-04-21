@@ -13,7 +13,7 @@
         if (countryCode.test(node.id)) {
           if (country.found) {
             node.classList.add("!fill-success")
-          } else if (status) {
+          } else if (status === "end") {
             node.classList.add("!fill-error")
           }
         }
